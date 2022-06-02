@@ -1,0 +1,21 @@
+FONT:
+titre= Lato
+https://fonts.google.com/specimen/Lato?slant=4&width=7&preview.text=take&preview.text_type=custom
+
+site classique: Open sans
+https://fonts.google.com/specimen/Open+Sans?query=open+sans&slant=4&width=7&preview.text=take&preview.text_type=custom
+
+footer:
+pareil
+
+LIEN MAQUETTE:
+classique:
+https://blazrobar.com/wp-content/uploads/2016/01/free-psd-templates-photoshop-full-pixels.jpg
+bootstraper:
+https://blazrobar.com/wp-content/uploads/2016/01/free-psd-templates-photoshop-grid.jpg
+
+breakpoint:
+petits ecrans: < 768px
+tablettes: 768 - 991px
+ordinateurs: 992 - 1199px
+grand ecrans: > 1199x
