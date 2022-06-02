@@ -15,7 +15,8 @@ bootstraper:
 https://blazrobar.com/wp-content/uploads/2016/01/free-psd-templates-photoshop-grid.jpg
 
 breakpoint:
-petits ecrans: < 768px
-tablettes: 768 - 991px
-ordinateurs: 992 - 1199px
-grand ecrans: > 1199x
+tout tout petits ecrans: < 576 .col-
+petits ecrans: 576 - 768px .col-sm
+tablettes: 768 - 991px .col-md
+ordinateurs: 992 - 1199px .col-lg
+grand ecrans: > 1199x .col-xl
