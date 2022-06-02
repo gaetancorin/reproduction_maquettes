@@ -9,9 +9,6 @@ body{
 header{
     color: white;
 }
-.logo-title{
-    margin-top: 50px;
-}
 .logo{
     width: 20px;
 }
@@ -24,28 +21,53 @@ header{
     background-size: 100%;
     border: black solid  5px;
 }
+.logo-title{
+    margin-top: 20px;
+}
 .title-header h1{
-    font-weight: lighter;
+    font-weight: 300;
+}
+.title-header p{
+    font-size: 12px;
 }
 
 
 @media screen and (max-width: 575px) {
     .img_personne_montagne{
-        padding: 0px 50px;
+        padding: 0px 20px;
         background-position: center;
         background-size: cover;
+    }
+    .title-header{
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .title-header h1{
+        font-size: 30px;
     }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
     .img_personne_montagne{
-        padding: 0px 50px;
+        padding: 0px 30px;
         height: 270px;
+    }
+    .title-header{
+        margin-top: 50px;
+    }
+    .title-header h1{
+        font-size: 30px;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .img_personne_montagne{
         padding: 0px 100px;
         height: 380px;
+    }
+    .title-header{
+        margin-top: 100px;
+    }
+    .title-header h1{
+        font-size: 35px;
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -54,7 +76,10 @@ header{
         height: 500px;
     }
     .title-header{
-        margin-top: 120px;
+        margin-top: 150px;
+    }
+    .title-header h1{
+        font-size: 35px;
     }
 }
 @media screen and (min-width: 1200px) {
@@ -63,12 +88,9 @@ header{
         height: 600px;
     }
     .title-header{
-        margin-top: 180px;
+        margin-top: 190px;
     }
     .title-header h1{
-        font-size: 45px;
-    }
-    .title-header p{
-        font-size: 12px;
+        font-size: 35px;
     }
 }
