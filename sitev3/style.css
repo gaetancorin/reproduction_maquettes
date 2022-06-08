@@ -29,24 +29,30 @@ body{
     position: absolute;
     /* border: black solid  5px; */
 }
-.left_column_first_picture, .right_column_first_picture{
+.left_right_column_first_picture{
+    margin-bottom: 50px;
+}
+.left_column_first_picture, 
+.right_column_first_picture{
     padding: 0px !important;
     justify-content:flex-start;
 }
-.left_column_first_picture div h1{
+.left_text_top_first_picture h1{
     font-weight: 300;
     color: white;
 }
-.left_column_first_picture .text_first_picture p{
+.left_text_top_first_picture p{
     color: white;
-}
-.left_column_first_picture div p, 
-.right_column_first_picture div p{
     font-size: 10px;
-    color: gray;
     margin-top: 15px;
 }
-.text_bottom_first_picture h2{
+.left_text_bottom_first_picture p, 
+.right_column_first_picture p{
+    color: gray;
+    font-size: 10px;
+    margin-top: 15px;
+}
+.left_text_bottom_first_picture h2{
     font-size: 22px;
     font-weight: 400;
     color: gray;
@@ -67,10 +73,10 @@ body{
     .left_column_first_picture{
         margin-top: 30px;
     }
-    .left_column_first_picture h1{
+    .left_text_top_first_picture h1{
         font-size: 30px;
     }
-    .left_column_first_picture .text_bottom_first_picture{
+    .left_text_bottom_first_picture{
         padding-top: 120px;
     }
     .right_column_first_picture img{
@@ -91,10 +97,10 @@ body{
     .left_column_first_picture{
         margin-top: 50px;
     }
-    .left_column_first_picture h1{
+    .left_text_top_first_picture h1{
         font-size: 30px;
     }
-    .text_bottom_first_picture{
+    .left_text_bottom_first_picture{
         margin-top: 180px;
     }
     .right_column_first_picture img{
@@ -113,10 +119,10 @@ body{
     .left_column_first_picture{
         margin-top: 130px;
     }
-    .left_column_first_picture h1{
+    .left_text_top_first_picture h1{
         font-size: 35px;
     }
-    .text_bottom_first_picture{
+    .left_text_bottom_first_picture{
         margin-top: 220px;
     }
     .right_column_first_picture img{
@@ -135,10 +141,10 @@ body{
     .left_column_first_picture{
         margin-top: 150px;
     }
-    .left_column_first_picture h1{
+    .left_text_top_first_picture h1{
         font-size: 35px;
     }
-    .text_bottom_first_picture{
+    .left_text_bottom_first_picture{
         margin-top: 250px;
     }
     .right_column_first_picture img{
@@ -158,10 +164,10 @@ body{
     .left_column_first_picture{
         margin-top: 240px;
     }
-    .left_column_first_picture h1{
+    .left_text_top_first_picture h1{
         font-size: 40px;
     }
-    .text_bottom_first_picture{
+    .left_text_bottom_first_picture{
         margin-top: 350px;
     }
     .right_column_first_picture div img{
