@@ -175,6 +175,17 @@ body{
         margin-bottom: 30px;
         max-width: 400px;
     }
-
 }
 
+/********* SECTION 1*************/
+.overfloww{
+    overflow-x: auto;
+}
+.rowtest{
+    flex-wrap: nowrap !important;
+}
+.test{
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+}
