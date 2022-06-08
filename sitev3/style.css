@@ -22,16 +22,12 @@ body{
     display: inline;
     font-family: 'Lato', sans-serif;
 }
-
 .img_personne_montagne{
     background:url("img/personne_montagne2.png") no-repeat center;
     background-size: cover;
     width: 100vw;
     position: absolute;
     /* border: black solid  5px; */
-}
-.left_right_column_first_picture{
-    justify-content: center;
 }
 .left_column_first_picture, .right_column_first_picture{
     padding: 0px !important;
@@ -50,10 +46,15 @@ body{
     color: gray;
     margin-top: 15px;
 }
+.text_bottom_first_picture h2{
+    font-size: 22px;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 20px;
+}
 .right_column_first_picture img{
     width: 100%;
 }
-
 
 @media screen and (max-width: 575px) {
     .img_personne_montagne{
@@ -93,17 +94,9 @@ body{
     .left_column_first_picture h1{
         font-size: 30px;
     }
-
     .text_bottom_first_picture{
         margin-top: 180px;
     }
-    .text_bottom_first_picture h2{
-        font-size: 22px;
-        font-weight: 400;
-        color: gray;
-        margin-bottom: 20px;
-    }
-
     .right_column_first_picture img{
         margin-top: 120px;
         padding-left: 0px;
@@ -123,23 +116,14 @@ body{
     .left_column_first_picture h1{
         font-size: 35px;
     }
-
     .text_bottom_first_picture{
         margin-top: 220px;
     }
-    .text_bottom_first_picture h2{
-        font-size: 22px;
-        font-weight: 400;
-        color: gray;
-        margin-bottom: 20px;
-    }
-
     .right_column_first_picture img{
         margin-top: 160px;
         margin-left: 30px;
         max-width: 250px;      
     }
-
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     .img_personne_montagne{
@@ -154,24 +138,15 @@ body{
     .left_column_first_picture h1{
         font-size: 35px;
     }
-
     .text_bottom_first_picture{
         margin-top: 250px;
     }
-    .text_bottom_first_picture h2{
-        font-size: 22px;
-        font-weight: 400;
-        color: gray;
-        margin-bottom: 20px;
-    }
-
     .right_column_first_picture img{
         margin-top: 80px;
         margin-bottom: 30px;
         padding-left: 10px;
         max-width: 350px;
     }
-
 }
 @media screen and (min-width: 1200px) {
     .img_personne_montagne{
@@ -186,22 +161,14 @@ body{
     .left_column_first_picture h1{
         font-size: 40px;
     }
-
     .text_bottom_first_picture{
         margin-top: 350px;
-    }
-    .text_bottom_first_picture h2{
-        font-size: 22px;
-        font-weight: 400;
-        color: gray;
-        margin-bottom: 20px;
     }
     .right_column_first_picture div img{
         margin-top: 130px;
         margin-bottom: 30px;
         max-width: 400px;
     }
-
 
 }
 
