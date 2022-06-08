@@ -5,6 +5,10 @@ body{
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
 }
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
 
 /********* HEADER SECTION *************/
 .logo{
@@ -27,6 +31,15 @@ body{
     /* border: black solid  5px; */
 }
 
+.left_right_column_first_picture{
+    justify-content: center;
+}
+.left_column_first_picture{
+    padding: 0px !important;
+}
+.right_column_first_picture{
+    padding: 0px !important;
+}
 .left_column_first_picture div h1{
     font-weight: 300;
     color: white;
@@ -177,7 +190,7 @@ body{
     }
 
     .text_bottom_first_picture{
-        margin-top: 280px;
+        margin-top: 350px;
     }
     .text_bottom_first_picture h2{
         font-size: 22px;
@@ -188,7 +201,8 @@ body{
 
     .right_column_first_picture div img{
         margin-top: 130px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
+        max-width: 400px;
     }
 
 }
