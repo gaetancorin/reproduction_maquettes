@@ -6,8 +6,8 @@ body{
     overflow-x: hidden;
 }
 a{
-    color: white !important;
-    text-decoration: none !important; 
+    text-decoration: none !important;
+    font-weight: bold; 
 }
 .row{
     margin-left: 0px !important;
@@ -155,7 +155,7 @@ a{
         margin-top: 80px;
         margin-bottom: 30px;
         padding-left: 10px;
-        max-width: 350px;
+        max-width: 310px;
     }
 }
 @media screen and (min-width: 1200px) {
@@ -194,7 +194,7 @@ a{
     flex-wrap: nowrap !important;
 }
 .box_grid_box{
-    height: 220px;
+    height: 250px;
     padding: 40px 40px!important;
     display: flex;
     flex-direction: column;
@@ -206,7 +206,9 @@ a{
     margin-bottom: 20px;
 }
 .grid_box p, .grid_box a{
+    color: white !important;
     font-size: 9px;
+    line-height: 18px;
 }
 .arrow{
     font-size: 12px;
