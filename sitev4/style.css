@@ -5,6 +5,10 @@ body{
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
 }
+a{
+    color: white !important;
+    text-decoration: none !important; 
+}
 .row{
     margin-left: 0px !important;
     margin-right: 0px !important;
@@ -178,14 +182,71 @@ body{
 }
 
 /********* SECTION 1*************/
-.overfloww{
+
+.grid_box{
+    padding: 0 30px !important;
+    color: white;
+}
+.overflow_grid_box{
     overflow-x: auto;
 }
-.rowtest{
+.row_grid_box{
     flex-wrap: nowrap !important;
 }
-.test{
-    height: 100px;
-    background-color: blue;
-    border: 1px solid black;
+.box_grid_box{
+    height: 220px;
+    padding: 40px 40px!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.grid_box h3{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.grid_box p, .grid_box a{
+    font-size: 9px;
+}
+.arrow{
+    font-size: 12px;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+}
+.icon_heart{
+    position: absolute;
+    right: 35px;
+    bottom: 35px;
+    color: white;
+}
+.lac_box{
+    background:url("img/lac_glace.png") no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    position: absolute;
+}
+.sun_box{
+    background:url("img/homme_neige.png") no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    position: absolute;
+}
+.hair_box{
+    background:url("img/cheveux.png") no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    position: absolute;
+}
+.pink_box{
+    background-color: #f5989d;
+}
+.grey_box{
+    background-color: #615f7d;
+}
+.purple_box{
+    background-color: #bd8cbf;
+}
+.green_box{
+    background-color: #82ca9c;
 }
