@@ -12,54 +12,299 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <!-- font open sans -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!--bibliotheque fontawesome.com-->
+    <script src="https://kit.fontawesome.com/925d3dc1d6.js" crossorigin="anonymous"></script>
     <title>Maquette Openclassroom</title>
 </head>
 <body>
-    <header>
+    <!------- SECTION 0 -------->
+    <!------- Image montagne + texte background blanc -------->
+    <section>
         <div class="img_personne_montagne"></div>
-        <div class="padding-text">
+        <div class="paddings_text">
             <div class="container">
-                <div class="row logo-title">
-                    <div class="col-12">
-                        <img class="logo"
-                        src="img/logo.png"
+                <header class="row">
+                    <div class="col-12 logo">
+                        <img src="img/logo.png"
                         alt="logo">
-                        <p class="title">take</p>
+                        <p>take</p>
                     </div>
-                </div>
+                </header>
 
-                <div class="row align-items-start header-text">
-                    <div class="col-9 col-sm-6 title-header">
-                        <h1>Picture perfect</h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate asperiores sit sint recusandae sunt repudiandae iustos!</p>
+                <div class="row left_right_column_first_picture">
+                    <div class="col-12 col-sm-6 row left_column_first_picture ">
+                        <div class="col-9 col-sm-12 left_text_top_first_picture">
+                            <h1>Picture perfect</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate asperiores sit sint recusandae sunt repudiandae iustos!</p>
+                        </div>
+                        <div class="col-12 left_text_bottom_first_picture">
+                            <h2>Start something new</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate asperiores sit sint recusandae sunt repudiandae iustos!Voluptate asperiores sit sint recusandae sunt repudiandae iustos!</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate asperiores sit sint recusandae sunt repudiandae iustos!Voluptate asperiores sit sint recusandae sunt repudiandae iustos!</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate asperiores sit sint recusandae sunt repudiandae iustos!Voluptate asperiores sit sint recusandae sunt repudiandae iustos!</p>
+                        </div>
+
+                        
                     </div>
-                    <div class="col-12 col-sm-6">
-                        <img class="picture_phone" src="img/telephone_ombre2.png"
-                        alt="logo">
-                    </div>
-                    <div class="col-6">
-                        <h2>Start something new</h2>
+                    <div class="col-12 col-sm-6 row right_column_first_picture">
+                        <div class="col-12">
+                            <img cl src="img/telephone_ombre2.png"
+                        alt="image de l'application">
+                        </div>
+                        <div class="col-12 right_text_bottom_first_picture">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate asperiores sit sint recusandae sunt repudiandae iustos!</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate asperiores sit sint recusandae sunt repudiandae iustos!</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-    </header>
+    </section>
 
+    <!------SECTION 1------->
+    <!------carroussel texte et image------->
     <section class="section1">
+        <div class="container grid_box">
+            <div class="overflow_grid_box">
+
+                <div class="row row_grid_box">
+
+                    <div class="box_grid_box col-12 col-sm-6 col-lg-4 pink_box">
+                        <div>
+                            <h3>Design quality</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sit veniam sequi dicta culpa sed at modi provident quaerat veritatis!</p>
+                        </div>
+                        <div>
+                            <a href="#">Find Out more<span class="arrow">→</span></a>
+                        </div>
+                    </div>
+
+                    <div class="box_grid_box col-12 col-sm-6 col-lg-4 grey_box">
+                        <div>
+                            <h3>Built to last</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sit veniam sequi dicta culpa sed at modi provident quaerat veritatis!</p>
+                        </div>
+                        <div>
+                            <a href="#">Find Out more<span class="arrow">→</span></a>
+                        </div>
+                    </div>
+
+                    <div class="box_grid_box col-12 col-sm-6 col-lg-4 lac_box">
+                        <div>
+                            <h3>Our clients</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sit veniam sequi dicta culpa sed at modi provident quaerat veritatis!</p>
+                        </div>
+                        <div>
+                            <a href="#">Get insights <span class="arrow">→</span></a>
+                        </div>
+                        <i class="fa-regular fa-heart fa-sm icon_heart"></i>
+                    </div>
+                    
+                    <div class="box_grid_box col-12 col-sm-6 col-lg-4 purple_box">
+                        <div>
+                            <h3>How to shoo great</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sit veniam sequi dicta culpa sed at modi provident quaerat veritatis!</p>
+                        </div>
+                        <div>
+                            <a href="#">Find Out more<span class="arrow">→</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row_grid_box">
+
+                    <div class="box_grid_box col-12 col-sm-12 col-lg-8 sun_box">
+                        <div>
+                            <h3>Sign up & see why</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sit veniam sequi dicta culpa sed at modi provident quaerat veritatis!</p>
+                        </div>
+                        <div>
+                            <a href="#">Get started Now<span class="arrow">→</span></a>
+                        </div>
+                        <i class="fa-regular fa-heart fa-sm icon_heart"></i>
+                    </div>
+
+                    <div class="box_grid_box col-12 col-sm-6 col-lg-4 green_box">
+                        <div>
+                            <h3>Perfect pictures</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sit veniam sequi dicta culpa sed at modi provident quaerat veritatis!</p>
+                        </div>
+                        <div>
+                            <a href="#">Find Out more<span class="arrow">→</span></a>
+                        </div>
+                    </div>
+
+                    <div class="box_grid_box col-12 col-sm-6 col-lg-4 hair_box">
+                        <div>
+                            <h3>Start something new</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sit veniam sequi dicta culpa sed at modi provident quaerat veritatis!</p>
+                        </div>
+                        <div>
+                            <a href="#">Get started Now <span class="arrow">→</span></a>
+                        </div>
+                        <i class="fa-regular fa-heart fa-sm icon_heart"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <br>
     </section>
 
+        <!------SECTION 2------->
+        <!---section 4 blocs de texte background blanc---->
     <section class="section2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>A look at the details</h2>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <p>Web based</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel inventore sequi officiis animi natus, nobis, eaque aliquid sapiente quaerat, ipsa ut laudantium maxime enim incidunt consequuntur ab quidem molestiae doloribus.</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <p>Performance</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel inventore sequi officiis animi natus, nobis, eaque aliquid sapiente quaerat, ipsa ut laudantium maxime enim incidunt consequuntur ab quidem molestiae doloribus.</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <p>Clustral</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel inventore sequi officiis animi natus, nobis, eaque aliquid sapiente quaerat, ipsa ut laudantium maxime enim incidunt consequuntur ab quidem molestiae doloribus.</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <p>Sustainability</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel inventore sequi officiis animi natus, nobis, eaque aliquid sapiente quaerat, ipsa ut laudantium maxime enim incidunt consequuntur ab quidem molestiae doloribus.</p>
+                </div>
+            </div>
+        </div>     
     </section>
 
+        <!------SECTION 3------->
+        <!------image volant de voiture------->
     <section class="section3">
+        <div class="img_voiture"></div>
+        <div class="container">
+            <div class="row">
+                <div class=" text_second_picture col-12 col-sm-7 col-md-6 col-lg-5">
+                    <h1>More power behind every pixel.</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate asperiores sit sint recusandae sunt repudiandae iustos!dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate asperiores sit sint recusandae sunt repudiandae iustos!dolor sit amet consectetur adipisicing elit</p>
+                    <a href="#">Get started Now <span class="arrow">→</span></a>
+                </div>
+            </div>
+        </div>
     </section>
 
+        <!------SECTION 4------->
+        <!---section 3 blocs de texte background vert---->
     <section class="section4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Reasons to get onboard</h2>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4">
+                    <p>Web based</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel inventore sequi officiis animi natus, nobis, eaque aliquid sapiente quaerat, ipsa ut laudantium maxime enim incidunt consequuntur ab quidem molestiae doloribus.</p>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4">
+                    <p>Team login</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel inventore sequi officiis animi natus, nobis, eaque aliquid sapiente quaerat, ipsa ut laudantium maxime enim incidunt consequuntur ab quidem molestiae doloribus.</p>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4">
+                    <p>Great Support</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel inventore sequi officiis animi natus, nobis, eaque aliquid sapiente quaerat, ipsa ut laudantium maxime enim incidunt consequuntur ab quidem molestiae doloribus.</p>
+                </div>
+            </div>
+        </div> 
     </section>
 
+        <!------SECTION 5------->
+        <!-- section 2 blocs de texte background gris --->
     <section class="section5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 sell_bloc">
+                    <p class="highlight">LEGACY</p>
+                    <h2>Go it solo</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel inventore sequi officiis animi natus, nobis, eaque aliquid sapiente quaerat, ipsa ut laudantium maxime enim incidunt.</p>
+                    <a href="#">BUY NOW $9</a>
+                    <div>
+                        <i class="fa-brands fa-apple fa-xl"></i>
+                        <i class="fa-brands fa-windows fa-xl"></i>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 sell_bloc">
+                    <p class="highlight">MOST POPULAR</p>
+                    <h2>Team Plan</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel inventore sequi officiis animi natus, nobis, eaque aliquid sapiente quaerat, ipsa ut laudantium maxime enim incidunt.</p>
+                    <a href="#">BUY NOW $18</a>
+                    <div>
+                        <i class="fa-brands fa-apple fa-xl"></i>
+                        <i class="fa-brands fa-windows fa-xl"></i>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
     </section>
+
+        <!------FOOTER------->
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-md-6">
+                    <p>Get in touch</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel inventore sequi officiis animi natus, nobis, eaque aliquid sapiente quaerat, ipsa ut laudantium maxime enim incidunt.</p>
+                </div>
+
+                <div class="col-12 col-md-6 input_bloc">
+                    <p>Stay in touch</p>
+                    <form action="#" method="post">
+                        <input type="email">
+                        <input type="submit" value="🗸">
+                    </form>
+                    <p>We don't send spam. Actually, who are we kiding, we'll spam the shit of your inbox</p>
+                </div>
+
+                <div class="col-12 col-md-6 footer_nav">
+                    <div class="footer_nav_column">
+                        <p>Resources</p>
+                        <ul>
+                            <li><a href="#">Tour</a></li>
+                            <li><a href="#">Costumers</a></li>
+                            <li><a href="#">Pricing and Plans</a></li>
+                            <li><a href="#">New Features</a></li>
+                            <li><a href="#">Education</a></li>
+                        </ul>                        
+                    </div>
+                    
+                    <div class="footer_nav_column">
+                        <p>Features</p>
+                        <ul>
+                            <li><a href="#">Tour</a></li>
+                            <li><a href="#">Costumers</a></li>
+                            <li><a href="#">Pricing and Plans</a></li>
+                            <li><a href="#">New Features</a></li>
+                            <li><a href="#">Education</a></li>
+                        </ul>
+                    </div>
+                   
+                    <div class="footer_nav_column">
+                        <p> How To's</p>
+                        <ul>
+                            <li><a href="#">Tour</a></li>
+                            <li><a href="#">Costumers</a></li>
+                            <li><a href="#">Pricing and Plans</a></li>
+                            <li><a href="#">New Features</a></li>
+                            <li><a href="#">Education</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </div>

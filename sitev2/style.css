@@ -5,61 +5,91 @@ body{
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
 }
+a{
+    text-decoration: none !important;
+    font-weight: bold; 
+}
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+ul{
+    list-style-type: none;
+    margin: 0px !important;
+    padding: 0px !important;
+}
 
-/********* HEADER SECTION *************/
-.logo-title, .header-text h1, .header-text p{
+
+
+/*********  SECTION 0 *************/
+/*** Image montagne + texte background blanc ******/
+.logo{
+    padding-top: 40px;
     color: white;
 }
-.logo{
+.logo img{
     width: 25px;
 }
-.title{
+.logo p{
     display: inline;
     font-family: 'Lato', sans-serif;
 }
-h2{
-    display: inline;
-}
-
 .img_personne_montagne{
     background:url("img/personne_montagne2.png") no-repeat center;
     background-size: cover;
     width: 100vw;
     position: absolute;
-    /* border: black solid  5px; */
 }
-
-.logo-title{
-    padding-top: 40px;
-
+.left_right_column_first_picture{
+    margin-bottom: 50px;
 }
-.title-header h1{
+.left_column_first_picture, 
+.right_column_first_picture{
+    padding: 0px !important;
+    justify-content:flex-start;
+}
+.left_text_top_first_picture h1{
     font-weight: 300;
+    color: white;
 }
-.title-header p{
-    font-size: 12px;
+.left_text_top_first_picture p{
+    color: white;
+    font-size: 10px;
+    margin-top: 15px;
 }
-.picture_phone{
+.left_text_bottom_first_picture p, 
+.right_column_first_picture p{
+    color: gray;
+    font-size: 10px;
+    margin-top: 15px;
+}
+.left_text_bottom_first_picture h2{
+    font-size: 26px;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 20px;
+}
+.right_column_first_picture img{
     width: 100%;
 }
 
-
 @media screen and (max-width: 575px) {
     .img_personne_montagne{
-        background-size: cover;
         height: 300px;
     }
-    .padding-text{
-        padding-left: 8vw;
-        padding-right: 8vw;
+    .padding_text{
+        padding: 0 8vw;
     }
-    .title-header{
+    .left_column_first_picture{
         margin-top: 30px;
     }
-    .title-header h1{
+    .left_text_top_first_picture h1{
         font-size: 30px;
     }
-    .picture_phone{
+    .left_text_bottom_first_picture{
+        padding-top: 120px;
+    }
+    .right_column_first_picture img{
         max-width: 250px;
         min-width: 140px;
         width: 45%;
@@ -71,35 +101,43 @@ h2{
     .img_personne_montagne{
         height: 370px;
     }
-    .padding-text{
-        padding-left: 8vw;
-        padding-right: 8vw;
+    .padding_text{
+        padding: 0 8vw;
     }
-    .title-header{
+    .left_column_first_picture{
         margin-top: 50px;
     }
-    .title-header h1{
+    .left_text_top_first_picture h1{
         font-size: 30px;
     }
-    .picture_phone{
-        margin-top: 40px;
+    .left_text_bottom_first_picture{
+        margin-top: 180px;
+    }
+    .right_column_first_picture img{
+        margin-top: 120px;
+        padding-left: 0px;
+        margin-bottom: 30px;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .img_personne_montagne{
         height: 490px;
     }
-    .padding-text{
-        padding: 0 10vw;
+    .padding_text{
+        padding: 0 8vw;
     }
-    .title-header{
+    .left_column_first_picture{
         margin-top: 130px;
     }
-    .title-header h1{
+    .left_text_top_first_picture h1{
         font-size: 35px;
     }
-    .picture_phone{
-        margin-top: 130px;
+    .left_text_bottom_first_picture{
+        margin-top: 220px;
+    }
+    .right_column_first_picture img{
+        margin-top: 160px;
+        margin-left: 30px;
         max-width: 250px;      
     }
 }
@@ -107,34 +145,394 @@ h2{
     .img_personne_montagne{
         height: 500px;
     }
-    .padding-text{
-        padding: 0 18vw;
+    .padding_text{
+        padding: 0 16vw;
     }
-    .title-header{
+    .left_column_first_picture{
         margin-top: 150px;
     }
-    .title-header h1{
+    .left_text_top_first_picture h1{
         font-size: 35px;
     }
-    .picture_phone{
-        margin-top: 100px;
+    .left_text_bottom_first_picture{
+        margin-top: 250px;
+    }
+    .right_column_first_picture img{
+        margin-top: 80px;
+        margin-bottom: 30px;
+        padding-left: 10px;
+        max-width: 310px;
     }
 }
 @media screen and (min-width: 1200px) {
     .img_personne_montagne{
         height: 660px;
     }
-    .padding-text{
-        padding: 0 18vw;
+    .padding_text{
+        padding: 0 16vw;
     }
-    .title-header{
+    .left_column_first_picture{
         margin-top: 240px;
     }
-    .title-header h1{
-        font-size: 35px;
+    .left_text_top_first_picture{
+        max-width: 400px !important;
     }
-    .picture_phone{
+    .left_text_top_first_picture h1{
+        font-size: 40px;
+    }
+    .left_text_bottom_first_picture{
+        margin-top: 350px;
+    }
+    .right_column_first_picture div img{
         margin-top: 130px;
+        margin-bottom: 30px;
+        max-width: 400px;
     }
 }
 
+/********* SECTION 1*************/
+/********* carroussel texte et image **********/
+
+.grid_box{
+    padding: 0 30px !important;
+    color: white;
+    margin-bottom: 50px;
+}
+.overflow_grid_box{
+    overflow-x: auto;
+}
+.row_grid_box{
+    flex-wrap: nowrap !important;
+}
+.box_grid_box{
+    height: 250px;
+    padding: 40px 40px!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.grid_box h3{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.grid_box p, .grid_box a{
+    color: white !important;
+    font-size: 9px;
+    line-height: 18px;
+}
+.arrow{
+    font-size: 12px;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+}
+.icon_heart{
+    cursor: pointer;
+    position: absolute;
+    right: 35px;
+    bottom: 35px;
+    color: white;
+}
+.icon_heart:hover{
+    position: absolute;
+    color: red;
+}
+.lac_box{
+    background:url("img/lac_glace.png") no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    position: absolute;
+}
+.sun_box{
+    background:url("img/homme_neige.png") no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    position: absolute;
+}
+.hair_box{
+    background:url("img/cheveux.png") no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    position: absolute;
+}
+.pink_box{
+    background-color: #f5989d;
+}
+.grey_box{
+    background-color: #615f7d;
+}
+.purple_box{
+    background-color: #bd8cbf;
+}
+.green_box{
+    background-color: #82ca9c;
+}
+
+/********* SECTION 2 ET SECTION 4*************/
+/** section 4 blocs de texte background blanc **/
+/** section 3 blocs de texte background vert **/
+
+/*section 2*/
+.section2 .container{
+    padding-bottom: 100px;
+}
+.section2 h2, .section2 p{
+    color: gray;
+}
+/*section 4*/
+.section4{
+    background-color: #82CA9C;
+}
+.section4 .container{
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section4 h2, .section4 p{
+    color: white;
+}
+/*section 2 et 4*/
+
+.section2 h2, .section4 h2{
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.section2 p, .section4 p{
+    font-size: 11px;
+    margin-top: 15px;
+}
+.section2 p:first-of-type, .section4 p:first-of-type{
+    font-weight: 700;
+}
+
+
+/********* SECTION 3*************/
+/****** image volant de voiture *********/
+.img_voiture{
+    background:url("img/voiture.png") no-repeat center;
+    background-color: black;
+    opacity: 85%;
+    background-size: cover;
+    width: 100vw;
+    position: absolute;
+}
+.text_second_picture{
+    max-width: 400px !important;
+}
+.section3 h1{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 20px;   
+}
+.section3 p{
+    color: white;
+    font-size: 10px; 
+    line-height: 18px;
+}
+.section3 a{
+    color: white !important;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 575px) {
+    .img_voiture, .section3 .container{
+        height: 400px;
+    }
+    .section3 h1{
+        margin-top: 100px;  
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .img_voiture, .section3 .container{
+        height: 475px;       
+    }
+    .section3 h1{
+        margin-top: 200px;  
+    } 
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .img_voiture, .section3 .container{
+        height: 500px;
+    }
+    .section3 h1{
+        margin-top: 220px;  
+    } 
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) { 
+    .img_voiture, .section3 .container{
+        height: 630px;
+    }
+    .section3 h1{
+        margin-top: 350px;  
+    } 
+}
+@media screen and (min-width: 1200px) {
+    .img_voiture, .section3 .container{
+        height: 660px;
+    }
+    .section3 h1{
+        margin-top: 350px;  
+    } 
+}
+
+/********* SECTION 5*************/
+/** section 2 blocs de texte background gris **/
+.section5{
+    background-color: #f6f7fb;
+}
+.section5 .container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section5 .sell_bloc{
+    padding: 50px;
+}
+.section5 .sell_bloc:hover{
+    background-color: white;
+    box-shadow: 0px 0px 30px rgb(166, 166, 166, 0.4);
+}
+.section5 .highlight{
+    display: inline-block;
+    font-size: 10px;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+}
+.section5 .sell_bloc:hover .highlight{
+    background-color: #c28ec7;
+}
+.section5 h2{
+    font-size: 26px;
+    color: gray;
+    font-weight: 400;
+}
+.section5 p:nth-of-type(2){
+   font-size: 11px;
+   color: grey;
+}
+.section5 a{
+    display: inline-block;
+    font-size: 10px;
+    color: white;
+    background-color: #82CA9C;
+    padding: 10px 20px;
+    border-radius: 0px;
+ }
+ .section5 a:hover{
+    color: #82CA9C;
+    background-color: white;
+    border: solid 1px black;
+    margin: -1px;
+ }
+ .section5 .fa-brands{
+    color: rgb(194, 194, 194);
+    padding: 30px 5px 20px 0px;
+ }
+
+ /********* FOOTER *************/
+footer{
+    background-color: #1a2430;
+    color: white;
+}
+footer .container{
+    padding-top: 100px;
+}
+footer p{
+    font-size: 11px;
+}
+
+/* partie right input */
+footer form{
+    width: 100%;
+    padding: 0px;
+    display: flex;
+}
+footer input[type="email"]{
+    border-width: 0px;
+    margin-right: -7px;
+    height: 45px;
+    flex-grow: 1;
+}
+footer input[type="submit"]{
+    background-color: #82CA9C;
+    border-width: 0px;
+    color: white;
+    width: 50px;
+    height: 45px;
+}
+footer form + p{
+    color: grey;
+    margin-top: 10px;
+    max-width: 280px;
+}
+/* partie left colonnes */
+.footer_nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.footer_nav_column{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+footer .col-12 p:first-child{
+    font-weight: 700;
+}
+footer li{
+    height: 20px;
+}
+.footer_nav_column a{
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+.footer_nav_column a:hover{
+    color: #82CA9C;
+}
+@media screen and (max-width: 575px) {
+    footer .col-12{
+        margin-bottom: 30px;
+    }
+    .footer_nav{
+        flex-wrap: wrap;        
+    }
+    .footer_nav_column{
+        padding-bottom: 30px;
+        min-width: 110px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    footer .col-12{
+        margin-bottom: 30px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .footer_nav{
+        margin-bottom: 80px;
+    }
+    footer .input_bloc{
+        padding-left: 40px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .footer_nav{
+        margin-bottom: 80px;
+    }
+    footer .input_bloc{
+        padding-left: 100px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .footer_nav{
+        margin-bottom: 80px;
+    }
+    footer .input_bloc{
+        padding-left: 100px;
+    }    
+}
