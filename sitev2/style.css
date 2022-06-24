@@ -536,3 +536,7 @@ footer li{
         padding-left: 100px;
     }    
 }
+
+#pricing{
+    transition: all 0.5s cubic-bezier(0, 0, 0, 1.68);
+}

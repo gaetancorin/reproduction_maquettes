@@ -22,7 +22,7 @@ ordinateurs: 992 - 1199px .col-lg
 grand ecrans: > 1199x .col-xl
 
 reste a faire:
-arranger le footer pour passer les colonnes en ul/li et titre de ul
-section 5 rendre background blanc suivant le hover
-gérer les boutons
+bouton border vert
+ancre sur lien footer
+transition lien footer
 
