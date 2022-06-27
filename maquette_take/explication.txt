@@ -1,0 +1,26 @@
+L'objectif de cette exercice est de créer un site web responsive en suivant une maquette Photoshop fournis par Openclassroom.
+
+Le module Openclassroom s'appelle "Découpez et recréer une maquette":
+https://openclassrooms.com/fr/courses/3504431-decoupez-et-integrez-une-maquette/3605781-recreer-la-structure-en-html
+
+
+
+Voici un lien de la maquette classique ainsi que la maquette contenant les tracé du grid bootstrap
+
+* la maquette classique:
+   https://blazrobar.com/wp-content/uploads/2016/01/free-psd-templates-photoshop-full-pixels.jpg
+* la maquette avec tracé de grid bootstrap:
+  https://blazrobar.com/wp-content/uploads/2016/01/free-psd-templates-photoshop-grid.jpg
+
+Voici les 5 breakpoints utilisé sur cette maquette. Il s'agit des 5 breakpoints de bootstrap:
+tout tout petits ecrans: < 576 .col-
+petits ecrans: 576 - 768px .col-sm
+tablettes: 768 - 991px .col-md
+ordinateurs: 992 - 1199px .col-lg
+grand ecrans: > 1199x .col-xl
+
+La bibliothèque font-awesome a été utilisé pour réaliser cette maquette.
+
+objectif: Travailler le html et le css en suivant une maquette, apprendre a extraire les éléments d'une maquette Photoshop.
+
+
