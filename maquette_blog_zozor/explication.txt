@@ -1,10 +1,12 @@
-L'objectif de cette exercice étant de construire le "site_modèle" avec l'aide de Openclassroom, puis de recréer le "site_realisation" de 0 sans regarder le code du site_modèle.
+L'objectif de cette exercice étant de construire le "site_modèle" avec l'aide de Openclassroom,
+Puis de recréer un site identique "site_realisation" de 0 sans regarder le code du site_modèle.
+Il faut ensuite le rendre responsive.
+
 
 Le module Openclassroom est "Apprenez à créer votre site web avec HTML5 et CSS3":
 https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1606688-tp-creez-un-site-pas-a-pas
 
-Le site a une taille fixe mimimum de 900px de large.
 
-objectif: Travailler le html et le css en suivant un site/maquette
+objectif: Travailler le html et le css en suivant un site/maquette et le rendre responsive
 
 

@@ -118,7 +118,7 @@ header a{
 }
 
  /******** grand voyageur *********/
-section{
+section[class="grand_voyageur"]{
     display: flex;   
 }
 
@@ -219,4 +219,35 @@ section{
 }
 .liste_amis a{
     color: rgb(156, 0, 0);
+}
+
+@media screen and (max-width:1024px) {
+    #bloc_page{
+        width: 100%;
+    }
+    /* HEADER */
+    header{
+        justify-content: flex-start;
+    }
+    header ul{
+        flex-direction: column;
+    }
+    header a{
+        font-size: 14px;
+    }
+    /* IMAGE PONT */
+    section[class="image_pont"]{
+        display: none;
+    }
+    /* GRAND VOYAGEUR   */
+    section[class="grand_voyageur"]{
+        flex-direction: column;   
+    }
+    aside .picture_zozor{
+        float:right;
+        margin-left: 10px;
+     }
+     aside div{
+        text-align: center;
+     }
 }
